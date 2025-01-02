@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>Chatbot</h1>
+        </div>
+        <div class="messages" id="messages">
+            <div class="message bot">¡Hola! ¿En qué puedo ayudarte?</div>
+            <div class="message bot">Menú:</div>
+            <ul class="menu">
+                <li>1. Horarios y días disponibles</li>
+                <li>2. aula progresar</li>
+                <li>3. Para más ayuda, contáctanos</li>
+            </ul>
+        </div>
+        <form id="chat-form">
+            <input type="text" id="user-input" placeholder="Escribe tu mensaje aquí..." required>
+            <button type="submit">→</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
